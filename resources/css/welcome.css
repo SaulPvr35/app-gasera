@@ -1,0 +1,45 @@
+/* === GASERA GENÉRICA: Estilos Base === */
+:root {
+  --primary: #d93025;       /* Rojo Gas */
+  --secondary: #1a237e;     /* Azul Marino */
+  --light: #f8f9fa;
+  --dark: #333;
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* resources/css/welcome.css */
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark);
+    overflow-x: hidden;
+    background-color: #b10606; /* <--- AGREGA ESTA LÍNEA (Gris claro ejemplo) */
+}
+
+body { font-family: 'Montserrat', sans-serif; color: var(--dark); overflow-x: hidden;}
+a { text-decoration: none; transition: 0.3s; }
+img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+
+/* === HEADER & NAV === */
+#navbar { background: #f10000; box-shadow: 0 2px 10px rgba(0,0,0,0.05); padding: 0.5rem 1rem; }
+.nav-link { color: #555 !important; font-weight: 500; margin: 0 5px; }
+.nav-link:hover { color: var(--primary) !important; }
+.navbar-toggler { border: none; } /* Hamburger usa default de Bootstrap o ícono SVG */
+
+
+.logo-img-small {
+  height: 60px;  /* <--- JUEGA CON ESTE NÚMERO (ej: 40px, 50px, 80px) */
+  width: auto;   /* Esto hace que no se deforme/aplaste */
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* === FOOTER & ANIMACIONES === */
+footer { background: #222; color: #aaa; padding: 2rem 0; font-size: 0.9rem; margin-top: auto; }
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+@keyframes slideUp { from{transform:translateY(20px);opacity:0} to{transform:translateY(0);opacity:1} }
+.animate-fade-in { animation: fadeIn 1s ease-out; }
