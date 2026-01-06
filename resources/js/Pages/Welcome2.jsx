@@ -15,7 +15,7 @@ import SuccessModal from '@/Components/Modals/SuccessModal';
 
 //----------------- COMPONENTES ----------------
 // --- ESTILOS ---
-// import '../../css/welcome.css';
+import '../../css/welcome.css';
 
 
 export default function Welcome2() {
@@ -39,7 +39,7 @@ export default function Welcome2() {
             
             <div id="app-react">
                 {/* Navbar recibe la función para abrir el modal */}
-                <Navbar openOrderModal={() => setShowOrderModal(true)} />
+                <Navbar/>
                 
                 <main>
                     <Hero />
