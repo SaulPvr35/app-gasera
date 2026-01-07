@@ -24,8 +24,8 @@ export default function ContactSection() {
                                 <a href="tel:+529999429090">(999) 9999999</a>
                             </p>
                             <p>
-                                Estamos listos para atender tus dudas y solicitudes. ¡Envíanos un mensaje o visítanos en
-                                nuestras oficinas!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Vel magnam labore qui asperiores maiores non ipsum doloremque eius consequuntur sequi!
                             </p>
                             <p className="mt-3"><em>Aceptamos pagos con tarjetas de crédito y débito.</em></p>
                         </div>

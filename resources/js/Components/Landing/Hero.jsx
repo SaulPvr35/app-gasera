@@ -2,18 +2,22 @@ import React, { useEffect, useState } from 'react';
 
 export default function Hero() {
     // Estilo dinámico para el background
+
     const heroStyle = {
-        background: "url('/storage/Landing/logo.png') no-repeat center/cover",
-        backgroundSize: "cover"
+        backgroundImage: "url('../Landing/PEMEX.jpg')", 
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        // backgroundAttachment: "fixed"
     };
 
     return (
-        <section id="hero" className="hero position-relative d-flex align-items-center justify-content-center text-center text-black" style={heroStyle}>
-            <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}></div>
+        <section id="hero" style={heroStyle} className="hero position-relative d-flex align-items-center justify-content-center text-center">
+            <div className="hero-overlay"></div>
 
-            <div className="hero-content position-relative px-3 animate-fade-in">
+            <div className="hero-content">
                 <h1 className="display-5 fw-bold mb-3">
-                    Somos el proveedor número uno de gas L.P. para tanques estacionarios en la Península de Yucatán.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet cupiditate, blanditiis quas excepturi temporibus adipisci, tempora natus voluptates delectus dicta assumenda nam repellendus recusandae id eum eos? Laboriosam, labore earum.
                 </h1>
                 <p className="lead mb-4">📞 <strong>9999999999</strong></p>
 

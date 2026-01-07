@@ -9,11 +9,11 @@ export default function Navbar() {
 
     return (
         <header id="header-principal">
-            <nav id="navbar" className="navbar navbar-expand-lg  shadow-sm fixed-top">
+            <nav id="navbar" className="navbar navbar-expand-lg fixed-top">
                 <div className="container-fluid px-4 py-2">
                     
                     {/* === LOGO (Izquierda) === */}
-                    <Link className="navbar-brand d-flex align-items-center me-3" href="/">
+                    <Link className="d-flex align-items-center me-3" href="/">
                         <img src="/Landing/logo.png" alt="Logo" className="logo-img-small" />
                     </Link>
 

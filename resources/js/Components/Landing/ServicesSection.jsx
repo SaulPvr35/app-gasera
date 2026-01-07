@@ -22,9 +22,18 @@ export default function ServicesSection() {
                                 Ofrecemos un servicio que soluciona tus necesidades
                             </h2>
                             <p>
-                                Nos enfocamos en brindar un servicio de la más alta calidad que cumple con tus
-                                expectativas. Nuestro equipo capacitado y compromiso con la mejora continua nos permite
-                                responder de forma inmediata a tus requerimientos.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Veniam tempora facere odit temporibus, iste vero fuga nemo 
+                                officiis repudiandae, sunt recusandae culpa eum in quos non 
+                                architecto corporis. Sint asperiores fugiat iste rem quae cum 
+                                aliquid consequuntur animi vitae repellat necessitatibus assumenda,
+                                voluptatem vero distinctio nesciunt ad soluta labore nostrum non ullam 
+                                repellendus tenetur. Culpa illo minima dolorum laudantium aliquam, laborum 
+                                consequatur quisquam fugiat illum assumenda impedit beatae nam tempora 
+                                accusantium ipsa error vel dolores voluptates ratione doloremque 
+                                porro ipsum odio quia reprehenderit! Iusto ipsa, libero blanditiis 
+                                incidunt, vero, quisquam dolore ad soluta totam odit magnam? Iste
+                                exercitationem quibusdam ipsa.
                             </p>
                             <a href="#" className="btn btn-primary mt-3">Conoce nuestro servicio</a>
                         </div>

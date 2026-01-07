@@ -1,0 +1,44 @@
+Para el Backend (Laravel): Escribe en la terminal:
+-composer install
+
+Para el Frontend (React): Escribe en la terminal:
+-npm install
+
+Configurar el archivo de entorno: El archivo de configuración .env no se descarga por seguridad. Debes crear una copia del ejemplo:
+cp .env.example .env
+-php artisan key:generate
+
+Para trabajar, necesitas tener dos terminales abiertas en VS Code (Terminal -> New Terminal):
+-php artisan serve
+
+(Frontend):
+-npm run dev
+
+Antes de empezar a trabajar (Actualizar)
+Siempre descarga para no trabajar sobre algo viejo.
+-git pull origin main
+
+Ver qué modificaste 
+-git status
+
+Cargar archivos a subir 
+-git add .
+
+Agregar el nombre de tarea o que es lo que modificaste 
+-git commit -m "Escribe aquí qué hiciste, ej: Diseño del navbar terminado"
+
+Subir a github
+-git push origin main
+
+
+          Acción	                    Comando
+Encender Frontend          -    npm run dev
+Encender Backend           -    php artisan serve
+
+Descargar cambios de otros -	git pull origin main
+Guardar mis cambios	       -    git add .
+Poner nombre al guardado   -	git commit -m "mensaje"
+Subir a internet	       -    git push origin main
+
+Instalar librerías de PHP  -    composer install
+Instalar librerías de JS   -	npm install

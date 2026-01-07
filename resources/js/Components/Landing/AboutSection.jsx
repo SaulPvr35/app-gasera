@@ -20,9 +20,10 @@ export default function AboutSection() {
                         <div className="content-wrapper p-4 rounded shadow-sm bg-white animate-slide-in-right">
                             <h2 className="section-title mb-3">Un poco de nosotros</h2>
                             <p>
-                                Nuestra misión es proporcionarte todos los servicios necesarios para satisfacer tus
-                                necesidades básicas de energía. Gracias a nuestra moderna infraestructura, ofrecemos un
-                                servicio seguro, confiable y eficiente.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Voluptates rem illum molestiae blanditiis animi accusamus quos, 
+                                ipsa accusantium at quisquam reprehenderit consectetur architecto 
+                                aut maxime labore veniam necessitatibus ducimus quibusdam?
                             </p>
                             <a href="#" className="btn btn-outline-primary mt-3">Conócenos mejor</a>
                         </div>

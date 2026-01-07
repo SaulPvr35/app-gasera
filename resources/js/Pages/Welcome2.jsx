@@ -36,11 +36,11 @@ export default function Welcome2() {
         <>
             {/* Título de la pestaña del navegador */}
             <Head title="Gasera - Inicio" />
-            
+
             <div id="app-react">
                 {/* Navbar recibe la función para abrir el modal */}
-                <Navbar/>
-                
+                <Navbar/>    
+
                 <main>
                     <Hero />
                     <AboutSection />
@@ -49,6 +49,7 @@ export default function Welcome2() {
                 </main>
 
                 <Footer />
+
                 {/* modal  */}
                 <OrderGasModal 
                     show={showOrderModal} 
